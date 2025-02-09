@@ -1,11 +1,12 @@
 import streamlit as st
 import pandas as pd
+import os
 
 st.write("Hello homebuyers!")
 st.title("Tallahassee Homes Explorer")
-st.write("Find your dream home with this interactive app! Explore homes that fit your budget, ideal square footage, preferred bed/bath count, zip code, and year built.")
+st.write("Find your dream home with this interactive app! Explore homes that fit your budget, ideal square footage, preferred bed/bath count, and zip code.")
 
-df = pd.read_csv("data/zillow.csv")
+df = pd.read_csv(os.path.abspath("./Yamanaka-Python-Portfolio./basic_streamlit_app/data/zillow.csv"))
 
 zipcode = st.selectbox("Select a Zipcode", df["Zip"].unique())
 sqft = st.slider("Select Square Footage", min_value=int(df["Living Space (sq ft)"].min()), max_value=int(df["Living Space (sq ft)"].max()), value=int(df["Living Space (sq ft)"].mean()), step=100)
@@ -15,10 +16,10 @@ price = st.slider("Select List Price", min_value=int(df["List Price ($)"].min())
 
 filtered_df = df[
     (df["Zip"] == zipcode) &
-    (df["Living Space (sq ft)"] >= sqft - 200) & (df["sqft"] <= sqft + 200) &
+    (df["Living Space (sq ft)"] >= sqft - 200) & (df["Living Space (sq ft)"] <= sqft + 200) &
     (df["Beds"] == beds) &
     (df["Baths"] == baths) &
-    (df["List Price ($)"] >= price - 5000) & (df["price"] <= price + 5000)
+    (df["List Price ($)"] >= price - 5000) & (df["List Price ($)"] <= price + 5000)
 ]
 
 st.write(f"Homes that would be perfect for you:")
