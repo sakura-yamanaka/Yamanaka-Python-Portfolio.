@@ -15,7 +15,7 @@ price = st.slider("Select List Price", min_value=int(df["List Price ($)"].min())
 
 filtered_df = df[
     (df["Zip"] == zipcode) &
-    (df["Living Space (sq ft)"] >= sqft - 100) & (df["sqft"] <= sqft + 100) &
+    (df["Living Space (sq ft)"] >= sqft - 200) & (df["sqft"] <= sqft + 200) &
     (df["Beds"] == beds) &
     (df["Baths"] == baths) &
     (df["List Price ($)"] >= price - 5000) & (df["price"] <= price + 5000)
