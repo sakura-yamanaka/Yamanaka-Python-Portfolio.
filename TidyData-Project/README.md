@@ -1,6 +1,6 @@
 # Tidy Data Project: Mutant Moneyball Data
 
-![](/sakurayamanaka/Desktop/Rally-3.jpg)
+![Mutant Moneyball](https://rallyrd.com/wp-content/uploads/2023/02/Rally-3.jpg)
 
 ## Project Overview 
 This project focuses on cleaning and tidying a dataset, Mutant Moneyball, which was adapted from GitHub. The dataset holds holds cleaned up data used in the Rally's Mutant Moneyball article which has X-Men value data from the X-Men's creation in 1963 up to 1993. 
