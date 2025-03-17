@@ -71,10 +71,24 @@ The dataset contains the following variables related to the value of X-Men comic
 
 ### Visualizations
 
-![Visualization 1](/Users/sakurayamanaka/Documents/Yamanaka-Python-Portfolio./TidyData-Project/AveragePricebyDecade.png)
+![Visualization 1](TidyData-Project/AveragePricebyDecade.png)
 
-![Visualization 1](//Users/sakurayamanaka/Documents/Yamanaka-Python-Portfolio./TidyData-Project/PricesOverTimebySource.png)
+![Visualization 1](TidyData-Project/PricesOverTimebySource.png)
 
 ### Code Snippet: Melting the DataFrame
+```python
+# Melt the DataFrame
+df_cleaned = pd.melt(df, id_vars=["Member"],
+                       value_vars=["TotalValue60s_heritage",	"TotalValue70s_heritage",	"TotalValue80s_heritage",	"TotalValue90s_heritage",	"TotalValue60s_ebay",	"TotalValue70s_ebay",	"TotalValue80s_ebay",	"TotalValue90s_ebay",	"TotalValue60s_wiz",	"TotalValue70s_wiz",	"TotalValue80s_wiz",	"TotalValue90s_wiz",	"TotalValue60s_oStreet",	"TotalValue70s_oStreet",	"TotalValue80s_oStreet",	"TotalValue90s_oStreet"],
+                       var_name="ValueType", value_name="Price")
+#We use pd.melt() to convert the dataset from the wide format to the long format. This is done by specifying:
+# - id_vars (Member): the identifier column that remains unchanged
+# - value_vars(TotalValue60s_heritage, TotalValue70s_heritage, etc.): These columns contain the values that will be put into a single column in the long format.
+# - var_name (ValueType): This creates a new column (ValueType) that stores the names of the original columns being melted (TotalValue60s_heritage becomes a value in the ValueType column). 
+# - value_name (Price): Creates a new column (Price) that stores the values from the melted columns.
 
-## References
+#Melting the DataFrame is key in transforming the dataset into a tidy format. Tidy data principles state that each variable should be in its own column, and each observation should be in its own row. Melting helps achieve this by restructuring the data into long form. 
+#Additonally, long-format data is easier to manipulate, analyze, and visualize. 
+
+# Display the first few rows of the melted DataFrame
+df_cleaned.head()
