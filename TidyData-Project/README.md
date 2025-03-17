@@ -71,9 +71,9 @@ The dataset contains the following variables related to the value of X-Men comic
 
 ### Visualizations
 
-![Visualization 1](/Users/sakurayamanaka/Downloads/Unknown-2.png)
+![Visualization 1](/Users/sakurayamanaka/Documents/Yamanaka-Python-Portfolio./TidyData-Project/AveragePricebyDecade.png)
 
-![Visualization 1](/Users/sakurayamanaka/Desktop/Unknown.png)
+![Visualization 1](//Users/sakurayamanaka/Documents/Yamanaka-Python-Portfolio./TidyData-Project/PricesOverTimebySource.png)
 
 ### Code Snippet: Melting the DataFrame
 
