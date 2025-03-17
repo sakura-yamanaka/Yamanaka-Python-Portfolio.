@@ -71,7 +71,7 @@ The dataset contains the following variables related to the value of X-Men comic
 
 ### Visualizations
 
-![Visualization 1](/AveragePricebyDecade.png)
+![Visualization 1](AveragePricebyDecade.png)
 
 ![Visualization 1](PricesOverTimebySource.png)
 
@@ -92,3 +92,9 @@ df_cleaned = pd.melt(df, id_vars=["Member"],
 
 # Display the first few rows of the melted DataFrame
 df_cleaned.head()
+```
+
+## References
+
+- **Tidy Data Principles**: For more information, refer to Hadley Wickham's paper: [Tidy Data](https://vita.had.co.nz/papers/tidy-data.pdf)  
+- **Pandas Documentation**: For more information, refer to the [Pandas_Cheat_Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)  
