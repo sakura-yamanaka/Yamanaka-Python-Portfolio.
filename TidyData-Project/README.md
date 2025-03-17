@@ -97,4 +97,4 @@ df_cleaned.head()
 ## References
 
 - **Tidy Data Principles**: For more information, refer to Hadley Wickham's paper: [Tidy Data](https://vita.had.co.nz/papers/tidy-data.pdf)  
-- **Pandas Documentation**: For more information, refer to the [Pandas_Cheat_Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)  
+- **Pandas Documentation**: For more information, refer to the [Pandas Cheat Sheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)  
