@@ -6,10 +6,15 @@ This portfolio includes all my past and present Python projects that I have comp
 
 ## [Interactive Named Entity Recognition (NER) App](NERStreamlitApp) :pencil:
 **Description**: 
+This project focuses on building a custom Named Entity Recognition (NER) application. The goal was to create an interactive app that allows users to upload their own text data, define custom entity patterns, and view highlighted entities in the output. 
 
 **How It Complements My Portfolio**: 
 
 This project demonstrates my ability to:
+- Leverage **spaCy’s EntityRuler** to implement customizable NER
+- Integrate **Python, spaCy, and Streamlit** 
+- Implement a **user-friendly interface** that allows users to upload text data, define custom entity labels and patterns, and visualize detected entities
+- Deploy web applications to **Streamlit Community Cloud**
 
 ## [Tidy Data Project: Mutant Moneyball](TidyData-Project) :books:
 **Description**: 
