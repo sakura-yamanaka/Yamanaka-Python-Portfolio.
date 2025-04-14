@@ -6,6 +6,12 @@ from spacy import displacy
 
 st.title("Interactive NER Analyzer 🔍")
 
+st.write("""
+    Welcome to the easy-to-use **Interactive NER Analyzer**! With this app, you can quickly input text, 
+    upload files, add custom entity patterns, and visualize the entities detected in your text—all in one place!
+""")
+
+st.subheader("Upload/Input Text:")
 # File upload or text input
 input_method = st.radio("Input method:", ("Upload file", "Enter text directly"))
 
@@ -62,6 +68,7 @@ st.subheader("Entity Visualization:")
 visualization = displacy.render(doc, style="ent", page=False)
 st.markdown (visualization, unsafe_allow_html=True)
 
-st.subheader("Detected Entities")
+st.subheader("Detected Entities:")
+
 for ent in doc.ents:
-    st.write(f"Entity: {ent.text} | Type: {ent.label_}")
+    st.write(f"Entity: {ent.text} | Type: {ent.label_} | Position: Starts at character {ent.start_char} and ends at character {ent.end_char}.")
