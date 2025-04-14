@@ -1,7 +1,9 @@
 matplotlib==3.10.1
-numpy==2.2.4
 pandas==2.2.3
 scipy==1.15.2
 seaborn==0.13.2
 streamlit==1.37.1
-spacy==3.7.5
+blis==0.7.11 
+numpy==1.26.4 
+spacy==3.7.5 
+thinc==8.2.5
