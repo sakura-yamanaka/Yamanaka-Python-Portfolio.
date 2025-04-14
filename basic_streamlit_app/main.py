@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
 
-st.write("Hello homebuyers!")
 st.title("Tallahassee Homes Explorer")
+st.subheader("Hello homebuyers!")
 st.write("Find your dream home with this interactive app! Explore homes that fit your budget, ideal square footage, preferred bed/bath count, and zip code.")
 
 import os
-df = pd.read_csv(os.path.abspath("data/zillow.csv"))
+df = pd.read_csv(os.path.abspath("/Users/sakurayamanaka/Documents/Yamanaka-Python-Portfolio./basic_streamlit_app/data/zillow.csv"))
 
 zipcode = st.selectbox("Select a Zipcode", df["Zip"].unique())
 sqft = st.slider("Select Square Footage", min_value=int(df["Living Space (sq ft)"].min()), max_value=int(df["Living Space (sq ft)"].max()), value=int(df["Living Space (sq ft)"].mean()), step=100)
