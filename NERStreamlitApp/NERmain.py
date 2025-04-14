@@ -23,7 +23,7 @@ if input_method == "Upload file":
             text = f.read()
 else:
     text = st.text_area("Enter your text:", 
-                       "Sakura is looking at buying a house in NYC for $1 billion.")
+                       "Sakura Yamanaka is looking at buying a house in NYC for $1 billion.")
 
 nlp = spacy.load("en_core_web_sm")
 
