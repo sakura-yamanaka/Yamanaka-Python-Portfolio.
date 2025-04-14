@@ -4,6 +4,13 @@ This portfolio includes all my past and present Python projects that I have comp
 
 # My Projects: 
 
+## [Interactive Named Entity Recognition (NER) App](NERStreamlitApp) :pencil:
+**Description**: 
+
+**How It Complements My Portfolio**: 
+
+This project demonstrates my ability to:
+
 ## [Tidy Data Project: Mutant Moneyball](TidyData-Project) :books:
 **Description**: 
 
