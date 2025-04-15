@@ -29,8 +29,8 @@ spaCy uses a dictionary-based approach for NER, relying on patterns and labels t
 Users can either upload a `.txt` file or directly type/paste text into the app for analysis.
 
 #### Define Custom Entity Patterns  
-Use the sidebar to create a custom `EntityRuler` by specifying any number of patterns.  
-Each pattern includes a **label** (e.g., `PRODUCT`, `ORG`) and a **pattern string** (e.g., `"OpenAI"` or `"Notre Dame"`).
+Use the sidebar to create a custom `EntityRuler` by specifying **any number of patterns**.  
+Each pattern includes a **label** (e.g., `PRODUCT`, `COMPANY`) and a **pattern** (e.g., `"iPhone, Samsung"` or `"Google, Amazon, Sephora"`).
 
 #### Support for Multi-Word Patterns  
 Patterns can include multiple words, allowing for recognition of full organization names, titles, or other phrases  
