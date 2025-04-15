@@ -54,11 +54,11 @@ To run this app, you can either run the app locally or access the deployed versi
 ## Visuals 
 
 ### App Interface
-![AppInterface](Screenshot 2025-04-14 at 8.18.39 PM.png)
+![AppInterface](AppInterface.png)
 
 ### Example 
-![ExamplePic1](Screenshot 2025-04-14 at 8.24.39 PM.png)
+![ExamplePic1](ExamplePic1.png)
 
-![ExamplePic2](Screenshot 2025-04-14 at 8.24.50 PM.png)
+![ExamplePic2](ExamplePic2.png)
 
 ## References
