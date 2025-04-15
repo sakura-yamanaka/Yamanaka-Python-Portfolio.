@@ -68,3 +68,8 @@ To run this app, you can either run the app locally or access the deployed versi
 ![ExamplePic2](ExamplePic2.png)
 
 ## References
+- [Create a spaCy Visualizer with Streamlit – Medium](https://medium.com/@groxli/create-a-spacy-visualizer-with-streamlit-8b9b41b36745)
+- [spaCy EntityRuler](https://spacy.io/api/entityruler)
+- [Streamlit Cheat Sheet](https://docs.streamlit.io/develop/quick-reference/cheat-sheet)
+- [Python `strip()` Method – W3Schools](https://www.w3schools.com/python/ref_string_strip.asp)
+- [Markdown Extended Syntax – Markdown Guide](https://www.markdownguide.org/extended-syntax/)
