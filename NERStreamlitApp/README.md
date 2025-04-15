@@ -4,6 +4,7 @@
 
 ## Contents: 
 - [Project Overview](#project-overview)
+- [App Features](#app-features)
 - [Instructions](#instructions)
 - [Visuals](#visuals)
 - [References](#references)
@@ -22,11 +23,25 @@ spaCy uses a dictionary-based approach for NER, relying on patterns and labels t
   - `label`: The type of entity (e.g., `PERSON`, `PRODUCT`, `DATE`).
   - `pattern`: The exact words or terms that should be matched (e.g., "iPhone", "Sakura Yamanaka").
 
+## App Features
 
-### This project provides an interactive interface to:
-- Explore spaCy’s pre-trained NER model (en_core_web_sm)
-- Add custom patterns using EntityRuler (define custom entity recognition rules using label and pattern)
-- Visualize entity spans and their types
+#### Upload or Input Text  
+Users can either upload a `.txt` file or directly type/paste text into the app for analysis.
+
+#### Define Custom Entity Patterns  
+Use the sidebar to create a custom `EntityRuler` by specifying any number of patterns.  
+Each pattern includes a **label** (e.g., `PRODUCT`, `ORG`) and a **pattern string** (e.g., `"OpenAI"` or `"Notre Dame"`).
+
+#### Support for Multi-Word Patterns  
+Patterns can include multiple words, allowing for recognition of full organization names, titles, or other phrases  
+(e.g., `"New York City"` or `"University of Notre Dame"`).
+
+#### Explore Pre-trained NER Model  
+The app integrates spaCy’s `en_core_web_sm` model to automatically detect common entity types like people, dates, and monetary values.
+
+#### Visualize Entity Spans and Types  
+Detected entities are highlighted in a color-coded display using spaCy’s `displacy` visualizer.  
+Below the visualization, each entity is listed with its type and position in the text.
 
 Together, these features give users the ability to analyze text with a high degree of flexibility, customization, and precision.
 
