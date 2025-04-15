@@ -54,10 +54,11 @@ To run this app, you can either run the app locally or access the deployed versi
 ## Visuals 
 
 ### App Interface
-![App Interface](NERStreamlitApp/Screenshot 2025-04-14 at 8.18.39 PM.png)
+![AppInterface](Screenshot 2025-04-14 at 8.18.39 PM.png)
 
 ### Example 
-![ExamplePic1](NERStreamlitApp/Screenshot 2025-04-14 at 8.24.39 PM.png)
-![ExamplePic2](NERStreamlitApp/Screenshot 2025-04-14 at 8.24.50 PM.png)
+![ExamplePic1](Screenshot 2025-04-14 at 8.24.39 PM.png)
+
+![ExamplePic2](Screenshot 2025-04-14 at 8.24.50 PM.png)
 
 ## References
