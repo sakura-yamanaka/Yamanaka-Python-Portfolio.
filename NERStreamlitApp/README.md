@@ -1,6 +1,6 @@
 # Named Entity Recognition (NER) App Project
 
-![NER](https://www.google.com/url?sa=i&url=https%3A%2F%2Fbeyersimonson.com%2Fwhy-words-matter&psig=AOvVaw3B7uU2tXiJi82z_7-EQ-l_&ust=1744763414497000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCX7rLk2IwDFQAAAAAdAAAAABAJ)
+![NER](TitlePicture.png)
 
 ## Project Overview 
 This project focuses on building a **Customaizable Named Entity Recognition (NER) App**. The goal was to create an interactive app that allows users to upload or input their own text data, define custom entity patterns, and view highlighted entities in the output. 
