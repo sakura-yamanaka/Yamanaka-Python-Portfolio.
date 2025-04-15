@@ -2,6 +2,12 @@
 
 ![NER](TitlePicture.png)
 
+## Contents: 
+- [Project Overview](#project-overview)
+- [Instructions](#instructions)
+- [Visuals](#visuals)
+- [References](#references)
+
 ## Project Overview 
 This project focuses on building a **Customaizable Named Entity Recognition (NER) App**. The goal was to create an interactive app that allows users to upload or input their own text data, define custom entity patterns, and view highlighted entities in the output. 
 
