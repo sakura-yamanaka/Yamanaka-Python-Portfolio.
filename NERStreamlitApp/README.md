@@ -33,17 +33,17 @@ Use the sidebar to create a custom `EntityRuler` by specifying **any number of p
 Each pattern includes a **label** (e.g., `PRODUCT`, `COMPANY`) and a **pattern** (e.g., `"iPhone, Samsung"` or `"Google, Amazon, Sephora"`).
 
 #### Support for Multi-Word Patterns  
-Patterns can include multiple words, allowing for recognition of full organization names, titles, or other phrases  
+Patterns can include **multiple words**, allowing for recognition of full organization names, titles, or other phrases  
 (e.g., `"New York City"` or `"University of Notre Dame"`).
 
 #### Explore Pre-trained NER Model  
-The app integrates spaCy’s `en_core_web_sm` model to automatically detect common entity types like people, dates, and monetary values.
+The app integrates spaCy’s **`en_core_web_sm` model** to automatically detect common entity types like people, dates, and monetary values.
 
 #### Visualize Entity Spans and Types  
-Detected entities are highlighted in a color-coded display using spaCy’s `displacy` visualizer.  
+Detected entities are highlighted in a color-coded display using spaCy’s **`displacy` visualizer**.  
 Below the visualization, each entity is listed with its type and position in the text.
 
-Together, these features give users the ability to analyze text with a high degree of flexibility, customization, and precision.
+**Together, these features give users the ability to analyze text with a high degree of flexibility, customization, and precision.**
 
 ## Instructions 
 To run this app, you can either run the app locally or access the deployed version. The instructions for each are below.  
