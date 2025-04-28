@@ -21,10 +21,9 @@ text = ""
 # Option 1: Upload a .txt file
 if input_method == "Upload file":
     uploaded_file = st.file_uploader("Choose a text file", type=["txt"])
-    if uploaded_file:
-# Read the contents of the uploaded file and decode as UTF-8 string
-        with open(uploaded_file, 'r', encoding='utf-8') as f:
-            text = f.read()
+    if uploaded_file is not None:
+        # Read the contents of the uploaded file and decode as UTF-8 string
+        text = uploaded_file.read().decode('utf-8')
 # Option 2: Directly input text in a text area
 else:
     text = st.text_area("Enter your text:", )
