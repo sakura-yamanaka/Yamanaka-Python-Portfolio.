@@ -71,9 +71,9 @@ The dataset contains the following variables related to the value of X-Men comic
 
 ### Visualizations
 
-![Visualization 1](AveragePricebyDecade.png)
+![Visualization 1](images/AveragePricebyDecade.png)
 
-![Visualization 1](PricesOverTimebySource.png)
+![Visualization 1](images/PricesOverTimebySource.png)
 
 ### Code Snippet: Melting the DataFrame
 ```python

@@ -75,12 +75,12 @@ To run this app, you can either run the app locally or access the deployed versi
 ## Visuals 
 
 ### App Interface:
-![AppInterface](AppInterface.png)
+![AppInterface](images/AppInterface.png)
 
 ### Example of Use:  
-![ExamplePic1](ExamplePic1.png)
+![ExamplePic1](images/ExamplePic1.png)
 
-![ExamplePic2](ExamplePic2.png)
+![ExamplePic2](images/ExamplePic2.png)
 
 ## References
 - [Create a spaCy Visualizer with Streamlit – Medium](https://medium.com/@groxli/create-a-spacy-visualizer-with-streamlit-8b9b41b36745)

@@ -1,6 +1,6 @@
 # Welcome to the Tallahassee Homes Explorer!
 
-![HomeExplorer](tallahassee-50.jpg)
+![HomeExplorer](images/tallahassee-50.jpg)
 
 ## Contents: 
 - [Project Overview](#project-overview)
@@ -56,7 +56,7 @@ To run this app, you can either run the app locally or access the deployed versi
 ## Visuals 
 
 ### App Interface:
-![AppInterface](HomeAppInterface.png)
+![AppInterface](images/HomeAppInterface.png)
 
 ## Dataset:
 The dataset used was [zillow.csv](https://people.sc.fsu.edu/~jburkardt/data/csv/zillow.csv) from a CSV File Directory made by Florida State University. The dataset includes Tallahassee housing prices as reported by Zillow. There were 20 records that included:
