@@ -70,7 +70,7 @@ To run this app, you can either run the app locally or access the deployed versi
 
 ### Option 2: Accessing the Deployed Version
 
-1. Open the deployed version of the app on Streamlit Community Cloud using this [link](https://sakura-yamanaka-yamanaka-python-p-nerstreamlitappnermain-ibtlbw.streamlit.app/) 
+1. Open the deployed version of the app on Streamlit Community Cloud using this [link](https://yamanaka-python-portfolio-detmv6vwrnxumxfsgx2ywe.streamlit.app) 
 
 ## Visuals 
 
