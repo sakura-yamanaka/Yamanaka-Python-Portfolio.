@@ -1,6 +1,6 @@
 # Named Entity Recognition (NER) App Project
 
-![NER](TitlePicture.png)
+![NER](images/TitlePicture.png)
 
 ## Contents: 
 - [Project Overview](#project-overview)
