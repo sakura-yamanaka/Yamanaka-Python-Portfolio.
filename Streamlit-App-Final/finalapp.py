@@ -128,7 +128,7 @@ if len(results) == num_articles:
         if article["subjectivity"] > 0.6:
             st.markdown("_Subjectivity: This article leans heavily on opinions._")
         else:
-            st.markdown("__Subjectivity: This article is more factual._")
+            st.markdown("_Subjectivity: This article is more factual._")
 
 # Create bar chart comparing polarity and subjectivity
     # Get labels and scores for plotting
