@@ -78,12 +78,19 @@ To run this app, you can either run the app locally or access the deployed versi
 ## Visuals 
 
 ### App Interface:
-![AppInterface](images/AppInterface.png)
+![AppInterface](images/userinterface.png)
 
 ### Example of Use:  
-![ExamplePic1](images/ExamplePic1.png)
 
-![ExamplePic2](images/ExamplePic2.png)
+Using two articles on the same event from two different new sources (CNN and Fox): 
+- [Waltz out as national security adviser and tapped for UN ambassador](https://www.cnn.com/2025/05/01/politics/mike-waltz-national-security-adviser-depart)
+- [Trump nominates Waltz for high-level post after ousting him as national security advisor](https://www.foxnews.com/politics/trump-nominates-waltz-high-level-post-after-ousting-him-national-security-advisor)
+
+![ExamplePic1](images/example1.png)
+
+![ExamplePic2](images/example2.png)
+
+![ExamplePic3](images/example3.png)
 
 ## References
 - [Generating Word Cloud in Python](https://www.geeksforgeeks.org/generating-word-cloud-python/)
