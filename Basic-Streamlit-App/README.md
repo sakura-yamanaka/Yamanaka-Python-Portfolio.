@@ -42,7 +42,7 @@ To run this app, you can either run the app locally or access the deployed versi
     pip install pandas
     ```
 
-3. Run the app:
+3. Run the app in the terminal:
     ```bash
     streamlit run main.py
     ```

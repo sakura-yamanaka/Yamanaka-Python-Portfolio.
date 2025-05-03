@@ -61,7 +61,7 @@ To run this app, you can either run the app locally or access the deployed versi
     python -m spacy download en_core_web_sm
     ```
 
-3. Run the app:
+3. Run the app in the terminal:
     ```bash
     streamlit run NERmain.py
     ```

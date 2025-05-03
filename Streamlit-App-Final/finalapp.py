@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt # For plotting bar charts
 from wordcloud import WordCloud # For generating word clouds
 
 # Page title and description
-st.title("📰 News Article Sentiment Comparison Tool")
+st.title("📰 Political News Article Sentiment Comparison Tool")
 st.write("""
-    Welcome to the easy-to-use **News Article Sentiment Comparison Tool**! The steps are simple: 
+    Welcome to the easy-to-use **Political News Article Sentiment Comparison Tool**! The steps are simple: 
 """)
 # Instructions for using the app
 st.write("""
@@ -20,8 +20,8 @@ st.write("""
 
 # Definition of sentiment terms so users can understand the results
 st.subheader("🔑 Key Terms:")
-st.write("**Polarity Score**: Measures the emotional tone: positive vs. negative.")
-st.write("**Subjectivity Score**: Measures the degree of opinion vs. fact.")
+st.write("**Polarity Score**: Measures the emotional tone: positive vs. negative (-1 to 1).")
+st.write("**Subjectivity Score**: Measures the degree of opinion vs. fact (0 to 1).")
 # Use a horiztonal line to separate the instructions/key terms from the results 
 st.markdown("---")
 
