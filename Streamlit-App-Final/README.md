@@ -1,6 +1,6 @@
 # Streamlit Final Project: Political News Article Sentiment Comparison Tool
 
-![Article](images/TitlePicture.png)
+![Article](images/polarization.jpg)
 
 ## Contents: 
 - [Project Overview](#project-overview)
