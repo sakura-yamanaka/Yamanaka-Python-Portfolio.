@@ -4,10 +4,10 @@ This portfolio includes all my past and present Python projects that I have comp
 
 # My Projects At A Glance: 
 
-## [Political News Sentiment Comparison Tool](Streamlit-App-Final) :newspaper:
+## [Political News Article Sentiment Comparison Tool](Streamlit-App-Final) :newspaper:
 
 **Description**: 
-This project focuses on building a Political News Sentiment Comparison Tool—an interactive app that lets users input or upload news articles via URL or .txt file to analyze and compare sentiment polarity, subjectivity, and generate word clouds of frequently used terms. As a Political Science major interested in polarization, media, and public opinion, I designed this tool in response to increasing polarization and the blurred line between fact and opinion, offering a data-driven way to critically evaluate political content and promote more balanced, informed engagement with the news.
+This project focuses on building a Political News Article Sentiment Comparison Tool—an interactive app that lets users input or upload news articles via URL or .txt file to analyze and compare sentiment polarity, subjectivity, and generate word clouds of frequently used terms. As a Political Science major interested in polarization, media, and public opinion, I designed this tool in response to increasing polarization and the blurred line between fact and opinion, offering a data-driven way to critically evaluate political content and promote more balanced, informed engagement with the news.
 
 **How It Complements My Portfolio**: 
 

@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt # For plotting bar charts
 from wordcloud import WordCloud # For generating word clouds
 
 # Page title and description
-st.title("📰 Political News Sentiment Comparison Tool")
+st.title("📰 Political News Article Sentiment Comparison Tool")
 st.write("""
-    Welcome to the easy-to-use **Political News Sentiment Comparison Tool**! The steps are simple: 
+    Welcome to the easy-to-use **Political News Article Sentiment Comparison Tool**! The steps are simple: 
 """)
 # Instructions for using the app
 st.write("""
