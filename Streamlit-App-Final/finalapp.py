@@ -115,19 +115,20 @@ if len(results) == num_articles:
     # Display article labels and their sentiment scores
     for article in results:
         st.markdown(f"**{article['label']}** — **Polarity:** `{article['polarity']:.2f}`, **Subjectivity:** `{article['subjectivity']:.2f}`")
+       
+       # Interpretation of polarity
+        if article["polarity"] > 0.6:
+            st.markdown("_Polarity: This article has a strongly positive tone._")
+        elif article["polarity"] < -0.6:
+            st.markdown("_Polarity: This article has a strongly negative tone._")
+        else:
+            st.markdown("_Polarity: This article has a neutral or mixed tone._")
+
         # Interpretation of subjectivity
         if article["subjectivity"] > 0.6:
-            st.markdown("_This article leans heavily on opinions._")
+            st.markdown("_Subjectivity: This article leans heavily on opinions._")
         else:
-            st.markdown("_This article is more factual._")
-        
-        # Interpretation of polarity
-        if article["polarity"] > 0.6:
-            st.markdown("_This article has a strongly positive tone._")
-        elif article["polarity"] < -0.6:
-            st.markdown("_This article has a strongly negative tone._")
-        else:
-            st.markdown("_This article has a neutral or mixed tone._")
+            st.markdown("__Subjectivity: This article is more factual._")
 
 # Create bar chart comparing polarity and subjectivity
     # Get labels and scores for plotting
