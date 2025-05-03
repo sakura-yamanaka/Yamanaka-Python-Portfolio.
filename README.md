@@ -4,6 +4,19 @@ This portfolio includes all my past and present Python projects that I have comp
 
 # My Projects At A Glance: 
 
+## [Political News Article Sentiment Comparison Tool](Streamlit-App-Final) :newspaper:
+
+**Description**: 
+This project focuses on building a Political News Article Sentiment Comparison Tool—an interactive app that lets users input or upload news articles via URL or .txt file to analyze and compare sentiment polarity, subjectivity, and generate word clouds of frequently used terms. As a Political Science major interested in polarization, media, and public opinion, I designed this tool in response to increasing polarization and the blurred line between fact and opinion, offering a data-driven way to critically evaluate political content and promote more balanced, informed engagement with the news.
+
+**How It Complements My Portfolio**: 
+
+This project demonstrates my ability to:
+- Create a **domain-specific app** that solves a problem in the Political field 
+- Integrate **Python and Streamlit** with NLP techniques like **TextBlob for sentiment analysis**
+- Perform **web scraping** with requests and BeautifulSoup
+- Implement a **user-friendly interface** that allows users to compare articles easily with visualization tools like **matplotlib and WordCloud** and comprehsive user feedback
+
 ## [Interactive Named Entity Recognition (NER) App](NER-Streamlit-App) :pencil:
 **Description**: 
 This project focuses on building a custom Named Entity Recognition (NER) application. The goal was to create an interactive app that allows users to upload their own text data, define custom entity patterns, and view highlighted entities in the output. 
