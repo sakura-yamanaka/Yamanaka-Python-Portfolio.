@@ -6,6 +6,19 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
 st.title("📰 News Article Sentiment Comparison Tool")
+st.write("""
+    Welcome to the easy-to-use **News Article Sentiment Comparison Tool**! The steps are simple: 
+""")
+st.write("""
+         1) Choose how many articles you want to compare
+         2) Input article urls or upload .txt files 
+         3) Watch as this tool analyzes the articles, compares the sentiments using a bar plot, and creates a word cloud!
+""")
+
+st.subheader("🔑 Key Terms:")
+st.write("**Polarity Score**: Measures the emotional tone: positive vs. negative.")
+st.write("**Subjectivity Score**: Measures the degree of opinion vs. fact.")
+st.markdown("---")
 
 def article_text(source_type, source_content):
     if source_type == "URL":
@@ -68,11 +81,24 @@ for idx, (source_type, source) in enumerate(article_sources):
         })
 
 if len(results) == num_articles:
-    st.subheader("📊 Sentiment Analysis Results")
-    
+    st.subheader("📊 Sentiment Analysis Results:")
+
     # Display polarity and subjectivity
     for article in results:
         st.markdown(f"**{article['label']}** — Polarity: `{article['polarity']:.2f}`, Subjectivity: `{article['subjectivity']:.2f}`")
+        
+        if article["subjectivity"] > 0.6:
+            st.markdown("_This article leans heavily on opinions._")
+        else:
+            st.markdown("_This article is more factual._")
+        
+        # Interpretation of polarity
+        if article["polarity"] > 0.6:
+            st.markdown("_This article has a strongly positive tone._")
+        elif article["polarity"] < -0.6:
+            st.markdown("_This article has a strongly negative tone._")
+        else:
+            st.markdown("_This article has a neutral or mixed tone._")
 
     # Bar chart: polarity and subjectivity
     labels = [article["label"] for article in results]
