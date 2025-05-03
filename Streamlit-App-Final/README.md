@@ -1,4 +1,4 @@
-# Streamlit Final Project: Political News Article Sentiment Comparison Tool
+# Streamlit Final Project: Political News Sentiment Comparison Tool
 
 ![Article](images/polarization.jpg)
 
@@ -10,12 +10,12 @@
 - [References](#references)
 
 ## Project Overview 
-This project focuses on building a **Political News Article Sentiment Comparison Tool**. The goal was to create an interactive app that allows users to upload or input political news articles and then get sentiment analysis of the polarity score (how negative or posititve) the article is and then subjectivity score (how opiniated vs, factual) the article is. Lastly, the tool creates a word cloud of the most frequently used words in the article. 
+This project focuses on building a **Political News Sentiment Comparison Tool**. The goal was to create an interactive app that allows users to upload or input political news articles and then get sentiment analysis of the polarity score (how negative or posititve) the article is and then subjectivity score (how opiniated vs, factual) the article is. Lastly, the tool creates a word cloud of the most frequently used words in the article. 
 
 ### What problem does this solve? 
 Political news articles have become **increasingly polarized in recent years.** Many sources frame events as either strongly positive or negative, often to advance a particular agenda. Furthermore, articles often blur the line between opinion and fact, leading news consumers to unknowingly be swayed by biased narratives. 
 
-The **Political News Article Sentiment Comparison Tool** directly addresses this issue by providing readers with a clear, data-driven assessment of an article’s sentiment and subjectivity. By analyzing the polarity (positive or negative tone) and subjectivity (degree of opinion vs. fact), the tool helps users critically evaluate the content they encounter. Additionally, the word cloud highlights key terms, offering a visual representation of the article’s main focus. By allowing users to compare multiple articles,  users can identify which ones are more objective and fact-based. This comparison empowers users to seek out more balanced sources, fostering independent thinking, and mitigating the effects of media polarization.
+The **Political News Sentiment Comparison Tool** directly addresses this issue by providing readers with a clear, data-driven assessment of an article’s sentiment and subjectivity. By analyzing the polarity (positive or negative tone) and subjectivity (degree of opinion vs. fact), the tool helps users critically evaluate the content they encounter. Additionally, the word cloud highlights key terms, offering a visual representation of the article’s main focus. By allowing users to compare multiple articles,  users can identify which ones are more objective and fact-based. This comparison empowers users to seek out more balanced sources, fostering independent thinking, and mitigating the effects of media polarization.
 
 ## App Features
 
