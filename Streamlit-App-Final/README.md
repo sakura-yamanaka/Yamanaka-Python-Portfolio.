@@ -82,9 +82,9 @@ To run this app, you can either run the app locally or access the deployed versi
 
 ### Example of Use:  
 
-Using two articles on the same event from two different new sources (CNN and Fox): 
-- [Waltz out as national security adviser and tapped for UN ambassador](https://www.cnn.com/2025/05/01/politics/mike-waltz-national-security-adviser-depart)
-- [Trump nominates Waltz for high-level post after ousting him as national security advisor](https://www.foxnews.com/politics/trump-nominates-waltz-high-level-post-after-ousting-him-national-security-advisor)
+Using two articles on the same event from two different new sources (CNN and Fox News): 
+- [Waltz out as national security adviser and tapped for UN ambassador](https://www.cnn.com/2025/05/01/politics/mike-waltz-national-security-adviser-depart) (Fox News)
+- [Trump nominates Waltz for high-level post after ousting him as national security advisor](https://www.foxnews.com/politics/trump-nominates-waltz-high-level-post-after-ousting-him-national-security-advisor) (CNN)
 
 ![ExamplePic1](images/example1.png)
 
