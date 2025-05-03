@@ -9,3 +9,6 @@ spacy==3.7.5
 thinc==8.2.5
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
 textblob
+beautifulsoup4
+requests
+lxml
