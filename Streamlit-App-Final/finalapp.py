@@ -1,46 +1,62 @@
+# Import necessary libraries
 import streamlit as st
-from textblob import TextBlob
-import requests
-from bs4 import BeautifulSoup
-import matplotlib.pyplot as plt
-from wordcloud import WordCloud
+from textblob import TextBlob # For sentiment analysis
+import requests # For getting article text from a URL
+from bs4 import BeautifulSoup # For parsing HTML and extracting text
+import matplotlib.pyplot as plt # For plotting bar charts
+from wordcloud import WordCloud # For generating word clouds
 
+# Page title and description
 st.title("📰 News Article Sentiment Comparison Tool")
 st.write("""
     Welcome to the easy-to-use **News Article Sentiment Comparison Tool**! The steps are simple: 
 """)
+# Instructions for using the app
 st.write("""
          1) Choose how many articles you want to compare
          2) Input article urls or upload .txt files 
          3) Watch as this tool analyzes the articles, compares the sentiments using a bar plot, and creates a word cloud!
 """)
 
+# Definition of sentiment terms so users can understand the results
 st.subheader("🔑 Key Terms:")
 st.write("**Polarity Score**: Measures the emotional tone: positive vs. negative.")
 st.write("**Subjectivity Score**: Measures the degree of opinion vs. fact.")
 st.markdown("---")
 
+# Create function for processing new article text
 def article_text(source_type, source_content):
+    #For getting article text from a URL
     if source_type == "URL":
         try:
             response = requests.get(source_content)
+            # Using BeautifulSoup to parse the HTML content
             soup = BeautifulSoup(response.text, 'html.parser')
+            # Extracting text from all paragraphs by combing them into one string
             return ' '.join(p.get_text() for p in soup.find_all('p'))
+        # Handling potential errors
         except Exception as e:
             st.error(f"Error fetching article: {e}")
             return ""
+    #For getting article text from an uploaded .txt file
     elif source_type == "Upload" and source_content is not None:
         try:
+            # Reading the uploaded file
             return source_content.read().decode("utf-8")
+        # Handling potential errors
         except Exception as e:
             st.error(f"Error reading file: {e}")
             return ""
     return ""
 
+# Create function for analyzing sentiment
 def analyze_sentiment(text):
+    # Using TextBlob to analyze sentiment 
     sentiment = TextBlob(text)
+    # Getting both polarity and subjectivity scores
     return sentiment.sentiment.polarity, sentiment.sentiment.subjectivity
 
+# Create function for generating word clouds
 def generate_wordcloud(text):
     wordcloud = WordCloud(width=600, height=300, background_color='white').generate(text)
     fig, ax = plt.subplots()
@@ -48,10 +64,13 @@ def generate_wordcloud(text):
     ax.axis("off")
     return fig
 
+# Sidebar for user input of news articles
 st.sidebar.header("Add Articles")
 
+# Initialize list to store article sources
 article_sources = []
 
+# Sidebar for selecting number of articles that the user wants to compare
 num_articles = st.sidebar.number_input("How many articles do you want to compare?", min_value=2, max_value=10, value=2, step=1)
 
 for i in range(num_articles):
